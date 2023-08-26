@@ -30,3 +30,18 @@ x= s.split()
 x= s.split(" ")
 x = s.split('')
 console.log(x)
+
+// uppercase letter
+
+let myString = "javascript developer"
+console.log("This is upppercase letter challange:", `${myString[0].toUpperCase()}${myString.slice(1)}`)
+console.log(myString.toUpperCase())
+
+const mySentence = "this is awesome resource";
+const words = mySentence.split(" ")
+
+for (let i=0; i<words.length; i++){
+    words[i] = words[i][0].toUpperCase() + words[i].substring(1)
+}
+
+console.log(words.join(" "))
