@@ -45,3 +45,17 @@ for (let i=0; i<words.length; i++){
 }
 
 console.log(words.join(" "))
+
+// ********************* NUMBERS ***********************
+
+x = Math.floor(Math.random() * 100+1)
+y = Math.floor(Math.random() * 50+1)
+
+console.log(x, y)
+
+console.log("difference of x and y",x-y)
+console.log('sum of x and y',x+y)
+console.log('Product of x and y',x-y)
+console.log("Quotient of x and y",x/y)
+console.log("Remainder of x and y",x%y)
+
